@@ -1,5 +1,6 @@
 # Goal
 
+This repository provides Matlab code to load the content of an SVG file into a simple Matlab structure and a function to dislay this structure in a Matlab figure.
 
 # License
 
@@ -61,5 +62,3 @@ matlab screenshot
 original svg
 
 ![original svg](building.svg)
-
-
