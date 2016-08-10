@@ -58,7 +58,3 @@ matlab screenshot
 
 ![matlab screenshot](matlab_screenshot.jpg)
 
-
-original svg
-
-![original svg](building.svg)
