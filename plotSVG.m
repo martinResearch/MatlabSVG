@@ -32,9 +32,9 @@ function plotSVG(svg)
 
 
 for idImage=1: length(svg.images)
-
-    imagefile=svg.images{idImage}.file;
-    imshow(imread(imagefile));
+    image=svg.images{idImage};
+    imagefile=image.file;
+    imshow(imread(imagefile),'Xdata',[image.x,image.x+image.width],'Ydata',[image.y,image.y+image.height]);
     axis('ij');
     hold on;
 end
