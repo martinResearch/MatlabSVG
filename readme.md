@@ -1,12 +1,14 @@
 # Goal
 
-This repository provides Matlab code to load the content of an SVG file into a simple Matlab structure, to save a Matlab structure containing polygons and images into a SVG file and a function to dislay this structure in a Matlab figure.
+This repository provides Matlab code to load the content of an SVG file into a simple Matlab structure (*loadSVG.m*), to save a Matlab structure containing polygons and images into a SVG file (*saveSVG.m*) and a function to dislay this structure in a Matlab figure (*plotSVG.m*).
 
 # License
 
 Free BSD.
 
+# Limitations
 
+does not handle bezier curves yet. Could reuse code from http://uk.mathworks.com/matlabcentral/fileexchange/31453-bezier-curve-plotter-gui
 # Examples
 
 ```
