@@ -8,7 +8,11 @@ Free BSD.
 
 # Limitations
 
-does not handle bezier curves yet. Could reuse code from http://uk.mathworks.com/matlabcentral/fileexchange/31453-bezier-curve-plotter-gui
+This code does not handle bezier curves yet. We could reuse code from http://uk.mathworks.com/matlabcentral/fileexchange/31453-bezier-curve-plotter-gui
+
+We could create a small matlab gui to modify a svg structure by dragging the points, deleting polygons and creating new polygons.
+
+
 # Examples
 
 ```
