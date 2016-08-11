@@ -1,6 +1,6 @@
 # Goal
 
-This repository provides Matlab code to load the content of an SVG file into a simple Matlab structure (*loadSVG.m*), to save a Matlab structure containing polygons and images into a SVG file (*saveSVG.m*) and a function to dislay this structure in a Matlab figure (*plotSVG.m*). It is possible to edit the polygons interactively within a matlab figure using plotSVG with the *true* as the second argument. 
+This repository provides Matlab code to load the content of an SVG file into a simple Matlab structure (*loadSVG.m*), to save a Matlab structure containing polygons and images into a SVG file (*saveSVG.m*) and a function to dislay this structure in a Matlab figure (*plotSVG.m*). It is possible to edit the polygons interactively within a matlab figure using plotSVG with *true* as the second argument. 
 
 # License
 
