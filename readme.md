@@ -15,8 +15,7 @@ This code does not handle bezier curves yet. We could reuse code from http://uk.
 
 # Examples
 
-```
-#!matlab
+```matlab
 
 
  		>> svg=loadSVG('building.svg');
