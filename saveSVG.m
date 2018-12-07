@@ -24,7 +24,7 @@ fprintf(fid,'     id="layer2"\n');
 fprintf(fid,'     inkscape:label="image"\n');
 fprintf(fid,'     style="display:inline">\n');
 
-for  k=1:length(svg.images);
+for  k=1:length(svg.images)
     image=svg.images{k};
     fprintf(fid,'   <image\n');
     fprintf(fid,'      sodipodi:absref="%s"\n',image.file);
@@ -38,7 +38,7 @@ for  k=1:length(svg.images);
 end
 fprintf(fid,'</g>\n');
 
-for  k=1:length(svg.layers);
+for  k=1:length(svg.layers)
     layer=svg.layers{k};
     nbpolys=length(layer.polys);
     

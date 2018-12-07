@@ -80,7 +80,7 @@ if interactive
     
 end
 
-    function down(h,pr)
+    function down(~,~)
         if isempty(selected)
         
             p=get(gca,'currentpoint');
@@ -98,13 +98,13 @@ end
         end
     end
 
-    function up(h,p)
+    function up(~,~)
         selected=[];
       
     end
 
-    function motion(h,p)
-        if not(isempty(selected));
+    function motion(~,~)
+        if not(isempty(selected))
             p=get(gca,'currentpoint');
             p=p(1,1:2);
             selected=gco();
