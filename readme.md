@@ -63,3 +63,9 @@ This code does not handle bezier curves yet. We could reuse code from http://uk.
 matlab screenshot
 
 ![matlab screenshot](matlab_screenshot.jpg)
+
+## Projects that use MatlabSVG
+
+* [SBuM](https://github.com/jeanlouisnico/SBuM)
+
+Please add a comment in [here](https://github.com/martinResearch/MatlabSVG/issues/3) if you use this code in your project. I am very interested in knowing what it has been used for. 
